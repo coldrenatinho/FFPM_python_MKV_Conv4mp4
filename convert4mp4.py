@@ -1,5 +1,5 @@
 import sys
-from moviepy.editor import VideoFileClip
+from moviepy import VideoFileClip
 
 def converter_mkv_para_mp4(entrada, saida):
     try:
